@@ -1,16 +1,72 @@
-## Hi there 👋
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=b+titr&size=50&duration=4000&pause=2000&center=true&vCenter=true&width=435&lines=%D8%AA%D8%A7+%D8%A8%D9%88%D8%AF%D9%87+%D9%87%D9%85%DB%8C%D9%86+%D8%A8%D9%88%D8%AF%D9%87" alt="Typing SVG" /></a>
-<!--
-**quader864/quader864** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<!-- README for GitHub Profile - Quader -->
 
-Here are some ideas to get you started:
+<h1 align="center">Yo, I'm Quader 👋</h1>
+<p align="center">📈 Algo Trader | 💻 Dev & Designer | 🎬 Motion Sorcerer | 💪 Gym Rat</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### 🧠 About Me
+
+- 🚀 Currently working on a **Hedge Trading Bot** (thinking of calling it: `EdgeHedge`, `AlphaSplit`, or `PairStriker` ⚔️)
+- 💻 JavaScript is home, but I speak **C#** too
+- 🔄 Building automated trading strategies using **MQL5**
+- 🎥 I dabble in **motion design & animation** – After Effects, Unreal Engine, Cinema 4D – you name it
+- ✏️ Occasionally illustrate things just to see them move 🌀
+- 🎮 Unreal curious, literally
+- 🧠 Got some background in **passive networking**
+- 💪 Gym head – training HIT style like Mike Mentzer
+- 🎧 Music? Anything from Beethoven to bass drops
+
+---
+
+### 🛠️ Tools of the Trade
+
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![MQL5](https://img.shields.io/badge/-MQL5-007ACC?style=for-the-badge&logo=meta&logoColor=white)
+![C Sharp](https://img.shields.io/badge/-C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![Cinema 4D](https://img.shields.io/badge/-Cinema4D-011A6A?style=for-the-badge&logo=maxon&logoColor=white)
+![After Effects](https://img.shields.io/badge/-After%20Effects-9999FF?style=for-the-badge&logo=adobe-after-effects&logoColor=white)
+![Illustrator](https://img.shields.io/badge/-Illustrator-FF9A00?style=for-the-badge&logo=adobe-illustrator&logoColor=white)
+![Unreal Engine](https://img.shields.io/badge/-Unreal%20Engine-0E1128?style=for-the-badge&logo=unrealengine&logoColor=white)
+
+---
+
+### 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=quader864&show_icons=true&theme=radical" />
+  <br />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=quader864&theme=radical" />
+</p>
+
+---
+
+### 🎯 Current Mission
+
+**Hedge Trading Bot** – a precision-built algo to exploit market imbalances using dual-asset strategies.  
+I don’t predict the market. I *react* faster than it.
+
+---
+
+### 🎨 Bonus Skill Tree
+
+- 🎬 Motion Design & VFX (AE, C4D, Unreal)
+- ✏️ Concept art & Illustration
+- 🎮 Game curiosity with Unreal & C#
+- 🕸️ Passive Networking + Technical Infrastructure
+- 🎥 Lover of films, aesthetics, and everything visual
+
+---
+
+### 🔗 Let’s Link Up
+
+[![Website](https://img.shields.io/badge/Website-quader864.github.io-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://quader864.github.io)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/yourTelegramHandle)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/yourInstagramHandle)
+
+---
+
+> 💬 “I animate pixels, lift heavy metal, and trade digital gold.”  
+> ⚙️ “Automation isn’t the future. It’s the advantage.”  
+> 🎥 “Art meets code – and they lift together.”
+
