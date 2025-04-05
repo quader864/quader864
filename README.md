@@ -66,7 +66,15 @@ I don’t predict the market. I *react* faster than it.
 
 ---
 
-> 💬 “I animate pixels, lift heavy metal, and trade digital gold.”  
-> ⚙️ “Automation isn’t the future. It’s the advantage.”  
-> 🎥 “Art meets code – and they lift together.”
+### 💬 Words to Trade By
 
+> "An investment in knowledge pays the best interest."  
+> — *Benjamin Franklin*
+
+> "Markets can stay irrational longer than you can stay solvent."  
+> — *John Maynard Keynes*
+
+> "In the short run, the market is a voting machine, but in the long run, it is a weighing machine."  
+> — *Benjamin Graham*
+
+---
