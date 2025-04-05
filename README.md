@@ -62,8 +62,8 @@ I don’t predict the market. I *react* faster than it.
 ### 🔗 Let’s Link Up
 
 [![Website](https://img.shields.io/badge/Website-quader864.github.io-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://quader864.github.io)
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/yourTelegramHandle)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/yourInstagramHandle)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/quader864)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/quader864)
 
 ---
 
