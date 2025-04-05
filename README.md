@@ -2,7 +2,7 @@
 
 <h1 align="center">Yo, I'm Quader 👋</h1>
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=b+titr&size=80&pause=1000&center=true&vCenter=true&width=1440&height=100&lines=%D8%AA%D8%A7+%D8%A8%D9%88%D8%AF%D9%87+%D9%87%D9%85%DB%8C%D9%86+%D8%A8%D9%88%D8%AF%D9%87" alt="Typing SVG" /></a>
-<p align="center">📈 Algo Trader | 💻 Dev & Designer | 🎬 Motion Sorcerer | 💪 Gym Rat</p>
+<p align="center"> 💻 Dev & Designer | 🎬 Motion Sorcerer | 💪 Gym Rat</p>
 
 ---
 
