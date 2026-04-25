@@ -90,5 +90,3 @@ Simultaneously leveling up on the infrastructure side — containerization, orch
 > — Edsger Dijkstra
 
 ---
-
-<p align="center"><i>تا بوده همین بوده</i></p>
