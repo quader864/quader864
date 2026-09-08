@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430">
+<defs><pattern id="g" width="35" height="35" patternUnits="userSpaceOnUse"><path d="M35 0H0V35" fill="none" stroke="#58a6ff" stroke-opacity=".06"/></pattern></defs>
+<rect width="1200" height="430" rx="24" fill="#080b12" stroke="#1f6feb"/><rect width="1200" height="430" rx="24" fill="url(#g)"/>
+<g font-family="monospace">
+<text x="50" y="55" fill="#58a6ff" font-size="14" letter-spacing="3">QUADER // TECHNOLOGY MATRIX</text>
+<text x="50" y="82" fill="#8b949e" font-size="12">TOOLS I USE TO TURN IDEAS INTO SYSTEMS</text>
+
+<g stroke="#1f6feb" stroke-opacity=".55" fill="none" stroke-width="2">
+<path d="M190 170H420M190 170V290M420 170H690M420 170V290M690 170H990M690 170V290M420 290H690"/>
+<path d="M690 290H990"/>
+</g>
+<circle cx="190" cy="170" r="8" fill="#58a6ff"/><circle cx="420" cy="170" r="8" fill="#58a6ff"/><circle cx="690" cy="170" r="8" fill="#58a6ff"/><circle cx="990" cy="170" r="8" fill="#58a6ff"/>
+<circle cx="420" cy="290" r="8" fill="#58a6ff"/><circle cx="690" cy="290" r="8" fill="#58a6ff"/><circle cx="990" cy="290" r="8" fill="#58a6ff"/>
+
+<g fill="#fff" font-size="20">
+<text x="125" y="145">LANGUAGES</text><text x="360" y="145">FRONTEND</text><text x="635" y="145">BACKEND</text><text x="925" y="145">DATA</text>
+<text x="345" y="325">INFRASTRUCTURE</text><text x="615" y="325">AUTOMATION</text><text x="920" y="325">TRADING</text>
+</g>
+<g fill="#8b949e" font-size="12">
+<text x="105" y="195">JS · TS · PYTHON</text><text x="105" y="218">C# · PHP · MQL5</text>
+<text x="350" y="195">REACT · VITE</text><text x="350" y="218">HTML · CSS</text>
+<text x="625" y="195">NODE · EXPRESS</text><text x="625" y="218">PYTHON</text>
+<text x="930" y="195">MONGODB</text><text x="930" y="218">MYSQL · SQLITE</text>
+<text x="330" y="350">LINUX · DOCKER</text><text x="330" y="373">CLOUDFLARE · RENDER</text>
+<text x="610" y="350">PUPPETEER</text><text x="610" y="373">GITHUB ACTIONS</text>
+<text x="910" y="350">MQL5</text><text x="910" y="373">META TRADER 5</text>
+</g>
+<circle cx="0" cy="0" r="3" fill="#58a6ff"><animateMotion path="M190 170H420H690H990" dur="5s" repeatCount="indefinite"/></circle>
+</g></svg>

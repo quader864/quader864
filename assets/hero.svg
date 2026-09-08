@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430">
+<defs>
+  <linearGradient id="g" x1="0" x2="1">
+    <stop stop-color="#58a6ff"/><stop offset="1" stop-color="#7ee7ff"/>
+  </linearGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0H0V40" fill="none" stroke="#58a6ff" stroke-opacity=".07"/>
+  </pattern>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="430" rx="26" fill="#080b12" stroke="#1f6feb"/>
+<rect width="1200" height="430" rx="26" fill="url(#grid)"/>
+<path d="M0 350 C180 290 220 390 390 320 S690 230 820 315 S1050 350 1200 270" fill="none" stroke="#58a6ff" stroke-opacity=".16" stroke-width="2"/>
+<path d="M0 360 C180 300 220 400 390 330 S690 240 820 325 S1050 360 1200 280" fill="none" stroke="#58a6ff" stroke-width="2" stroke-opacity=".45">
+  <animate attributeName="stroke-opacity" values=".15;.65;.15" dur="3s" repeatCount="indefinite"/>
+</path>
+
+<g font-family="monospace">
+  <text x="70" y="68" fill="#58a6ff" font-size="15" letter-spacing="3">QUADER // SOFTWARE PROFILE</text>
+  <circle cx="1085" cy="62" r="6" fill="#58a6ff" filter="url(#glow)">
+    <animate attributeName="opacity" values="1;.25;1" dur="1.4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="1100" y="68" fill="#8b949e" font-size="12">ONLINE</text>
+
+  <text x="70" y="190" fill="#fff" font-size="72" font-weight="700">QUADER</text>
+  <text x="74" y="230" fill="#8b949e" font-size="20">DEVELOPER  /  TRADER  /  BUILDER</text>
+
+  <text x="74" y="286" fill="#58a6ff" font-size="15">BUILDING SYSTEMS THAT AUTOMATE, TRADE &amp; SCALE.</text>
+  <text x="74" y="330" fill="#8b949e" font-size="13">$ ./keep_building --mode=continuous</text>
+  <rect x="380" y="319" width="9" height="16" fill="#58a6ff">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="74" y="385" fill="#484f58" font-size="12">JAVASCRIPT · TYPESCRIPT · PYTHON · C# · MQL5 · LINUX · DOCKER</text>
+</g>
+</svg>
