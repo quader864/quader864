@@ -1,29 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430">
-<defs><pattern id="g" width="35" height="35" patternUnits="userSpaceOnUse"><path d="M35 0H0V35" fill="none" stroke="#58a6ff" stroke-opacity=".06"/></pattern></defs>
-<rect width="1200" height="430" rx="24" fill="#080b12" stroke="#1f6feb"/><rect width="1200" height="430" rx="24" fill="url(#g)"/>
-<g font-family="monospace">
-<text x="50" y="55" fill="#58a6ff" font-size="14" letter-spacing="3">QUADER // TECHNOLOGY MATRIX</text>
-<text x="50" y="82" fill="#8b949e" font-size="12">TOOLS I USE TO TURN IDEAS INTO SYSTEMS</text>
-
-<g stroke="#1f6feb" stroke-opacity=".55" fill="none" stroke-width="2">
-<path d="M190 170H420M190 170V290M420 170H690M420 170V290M690 170H990M690 170V290M420 290H690"/>
-<path d="M690 290H990"/>
-</g>
-<circle cx="190" cy="170" r="8" fill="#58a6ff"/><circle cx="420" cy="170" r="8" fill="#58a6ff"/><circle cx="690" cy="170" r="8" fill="#58a6ff"/><circle cx="990" cy="170" r="8" fill="#58a6ff"/>
-<circle cx="420" cy="290" r="8" fill="#58a6ff"/><circle cx="690" cy="290" r="8" fill="#58a6ff"/><circle cx="990" cy="290" r="8" fill="#58a6ff"/>
-
-<g fill="#fff" font-size="20">
-<text x="125" y="145">LANGUAGES</text><text x="360" y="145">FRONTEND</text><text x="635" y="145">BACKEND</text><text x="925" y="145">DATA</text>
-<text x="345" y="325">INFRASTRUCTURE</text><text x="615" y="325">AUTOMATION</text><text x="920" y="325">TRADING</text>
-</g>
-<g fill="#8b949e" font-size="12">
-<text x="105" y="195">JS · TS · PYTHON</text><text x="105" y="218">C# · PHP · MQL5</text>
-<text x="350" y="195">REACT · VITE</text><text x="350" y="218">HTML · CSS</text>
-<text x="625" y="195">NODE · EXPRESS</text><text x="625" y="218">PYTHON</text>
-<text x="930" y="195">MONGODB</text><text x="930" y="218">MYSQL · SQLITE</text>
-<text x="330" y="350">LINUX · DOCKER</text><text x="330" y="373">CLOUDFLARE · RENDER</text>
-<text x="610" y="350">PUPPETEER</text><text x="610" y="373">GITHUB ACTIONS</text>
-<text x="910" y="350">MQL5</text><text x="910" y="373">META TRADER 5</text>
-</g>
-<circle cx="0" cy="0" r="3" fill="#58a6ff"><animateMotion path="M190 170H420H690H990" dur="5s" repeatCount="indefinite"/></circle>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 390" role="img" aria-label="Languages, applications, infrastructure, and automation">
+  <defs>
+    <linearGradient id="stack-bg" x1="0" x2="1"><stop stop-color="#141327"/><stop offset="1" stop-color="#0c1a21"/></linearGradient>
+    <linearGradient id="stack-flow"><stop stop-color="#a78bfa"/><stop offset=".52" stop-color="#5eead4"/><stop offset="1" stop-color="#fbbf24"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="1198" height="388" rx="24" fill="url(#stack-bg)" stroke="#34314d" stroke-width="2"/>
+  <path d="M25 0V390" stroke="#282c43" stroke-width="2"/><path d="M25 0V390" stroke="#5eead4" stroke-opacity=".5" stroke-width="2" stroke-dasharray="2 19"><animate attributeName="stroke-dashoffset" values="0;-126" dur="4.875s" repeatCount="indefinite"/></path>
+  <circle cx="25" cy="7" r="4" fill="#a78bfa"/><circle cx="25" cy="383" r="4" fill="#fb7185"/>
+  <circle cx="25" cy="7" r="3" fill="#5eead4"><animateMotion path="M0 0V376" dur="4.875s" begin="1.05s" repeatCount="indefinite"/></circle>
+  <g font-family="monospace">
+    <text x="64" y="55" fill="#a78bfa" font-size="12" letter-spacing="2.5">03 <tspan fill="#777e98">/ TOOLKIT</tspan></text>
+    <text x="64" y="86" fill="#f3f0fb" font-size="23" font-weight="700">Tools in motion</text>
+  </g>
+  <path d="M116 146H1083" stroke="#30334a" stroke-width="3"/>
+  <path d="M116 146H1083" stroke="url(#stack-flow)" stroke-width="3" stroke-dasharray="36 931"><animate attributeName="stroke-dashoffset" values="0;-967" dur="4s" repeatCount="indefinite"/></path>
+  <g fill="#101321" stroke-width="2">
+    <circle cx="135" cy="146" r="27" stroke="#a78bfa"/><circle cx="445" cy="146" r="27" stroke="#5eead4"/>
+    <circle cx="755" cy="146" r="27" stroke="#fbbf24"/><circle cx="1065" cy="146" r="27" stroke="#fb7185"/>
+  </g>
+  <g fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M124 138l11-8 11 8v16h-22zM130 154v-9h10v9" stroke="#c4b5fd"/>
+    <path d="M435 137h20M435 146h20M435 155h13" stroke="#5eead4"/>
+    <path d="M746 137l9-5 9 5v17l-9 5-9-5zM746 137l9 5 9-5M755 142v17" stroke="#fbbf24"/>
+    <path d="M1056 137h18v18h-18zM1060 132v10M1070 132v10M1060 150h10" stroke="#fb7185"/>
+  </g>
+  <g font-family="monospace" text-anchor="middle">
+    <g fill="#f3f0fb" font-size="14" font-weight="700"><text x="135" y="204">LANGUAGES</text><text x="445" y="204">APPS</text><text x="755" y="204">INFRA</text><text x="1065" y="204">AUTOMATION</text></g>
+    <g fill="#9da4ba" font-size="10"><text x="135" y="231">JS · TS · PY · C# · MQL5</text><text x="445" y="231">REACT · NODE · EXPRESS</text><text x="755" y="231">LINUX · DOCKER · SQL</text><text x="1065" y="231">PUPPETEER · CI/CD</text></g>
+    <g fill="#747c97" font-size="9"><text x="135" y="253">PHP</text><text x="445" y="253">VITE · HTML · CSS</text><text x="755" y="253">MONGO · CLOUDFLARE</text><text x="1065" y="253">METATRADER 5</text></g>
+  </g>
+  <g fill="#a78bfa"><circle cx="135" cy="302" r="3"/><circle cx="445" cy="302" r="3"/><circle cx="755" cy="302" r="3"/><circle cx="1065" cy="302" r="3"/></g>
+  <path d="M135 302H1065" stroke="#34314d" stroke-width="1"/>
+</svg>

@@ -1,11 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 150">
-<rect width="1000" height="150" rx="20" fill="#080b12" stroke="#1f6feb"/>
-<g font-family="monospace">
-<circle cx="65" cy="55" r="7" fill="#58a6ff"><animate attributeName="opacity" values="1;.2;1" dur="1.3s" repeatCount="indefinite"/></circle>
-<text x="85" y="61" fill="#fff" font-size="16">SYSTEM STATUS: ONLINE</text>
-<text x="65" y="95" fill="#8b949e" font-size="12">BUILDING</text>
-<rect x="145" y="87" width="500" height="8" rx="4" fill="#161b22"/>
-<rect x="145" y="87" width="0" height="8" rx="4" fill="#58a6ff"><animate attributeName="width" from="0" to="500" dur="3s" fill="freeze"/></rect>
-<text x="675" y="95" fill="#58a6ff" font-size="12">CONTINUOUSLY</text>
-<text x="65" y="125" fill="#484f58" font-size="11">BUILD → TEST → DEPLOY → LEARN → REPEAT</text>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" role="img" aria-label="Always building">
+  <defs>
+    <linearGradient id="footer-bg" x1="0" x2="1"><stop stop-color="#161329"/><stop offset="1" stop-color="#0b1b22"/></linearGradient>
+    <linearGradient id="footer-flow"><stop stop-color="#a78bfa"/><stop offset=".52" stop-color="#5eead4"/><stop offset="1" stop-color="#fbbf24"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="1198" height="148" rx="24" fill="url(#footer-bg)" stroke="#34314d" stroke-width="2"/>
+  <path d="M25 0V150" stroke="#282c43" stroke-width="2"/><path d="M25 0V150" stroke="#5eead4" stroke-opacity=".5" stroke-width="2" stroke-dasharray="2 19"><animate attributeName="stroke-dashoffset" values="0;-126" dur="1.875s" repeatCount="indefinite"/></path>
+  <circle cx="25" cy="7" r="4" fill="#a78bfa"/><circle cx="25" cy="143" r="4" fill="#fb7185"/>
+  <circle cx="25" cy="7" r="3" fill="#5eead4"><animateMotion path="M0 0V136" dur="1.875s" begin="3.5s" repeatCount="indefinite"/></circle>
+  <g font-family="monospace">
+    <circle cx="72" cy="52" r="5" fill="#5eead4"><animate attributeName="opacity" values="1;.35;1" dur="1.8s" repeatCount="indefinite"/></circle>
+    <text x="91" y="57" fill="#f3f0fb" font-size="15" letter-spacing="1">STILL BUILDING</text>
+    <text x="1127" y="57" fill="#a78bfa" font-size="11" text-anchor="end" letter-spacing="1.5">SEE YOU IN THE NEXT COMMIT</text>
+    <text x="72" y="111" fill="#8990a9" font-size="10" letter-spacing="1">BUILD</text>
+    <text x="1127" y="111" fill="#8990a9" font-size="10" text-anchor="end" letter-spacing="1">REPEAT</text>
+  </g>
+  <rect x="148" y="83" width="886" height="8" rx="4" fill="#29283d"/>
+  <rect x="148" y="83" width="886" height="8" rx="4" fill="url(#footer-flow)"/>
+  <circle cx="148" cy="87" r="5" fill="#a78bfa"/><circle cx="1034" cy="87" r="5" fill="#fbbf24"/>
+  <circle cx="148" cy="87" r="3" fill="#fff"><animateMotion path="M0 0H886" dur="3.6s" repeatCount="indefinite"/></circle>
+</svg>

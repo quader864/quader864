@@ -1,5 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500"><defs><pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#58a6ff" stroke-opacity=".055"/></pattern></defs><rect width="100%" height="100%" rx="24" fill="#080b12" stroke="#1f6feb"/><rect width="100%" height="100%" rx="24" fill="url(#grid)"/><g font-family="monospace"><text x="55" y="55" fill="#58a6ff" font-size="14" letter-spacing="3">QUADER // LEARNING QUEUE</text>
-<g fill="#0d1117" stroke="#1f6feb"><rect x="55" y="100" width="525" height="115" rx="15"/><rect x="620" y="100" width="525" height="115" rx="15"/><rect x="55" y="245" width="525" height="115" rx="15"/><rect x="620" y="245" width="525" height="115" rx="15"/></g>
-<g fill="#58a6ff" font-size="11"><text x="80" y="130">01 / INFRA</text><text x="645" y="130">02 / ORCHESTRATION</text><text x="80" y="275">03 / CREATIVE WEB</text><text x="645" y="275">04 / TRADING</text></g>
-<g fill="#fff" font-size="21"><text x="80" y="168">LINUX + DOCKER</text><text x="645" y="168">KUBERNETES</text><text x="80" y="313">THREE.JS + 3D</text><text x="645" y="313">STRATEGY ENGINEERING</text></g>
-<g fill="#8b949e" font-size="11"><text x="80" y="193">servers · networking · CI/CD</text><text x="645" y="193">orchestration · distributed workloads</text><text x="80" y="338">interactive · real-time experiences</text><text x="645" y="338">execution · experimentation · risk</text></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-label="Topics in the learning queue">
+  <defs><linearGradient id="learning-bg" x1="0" x2="1" y2="1"><stop stop-color="#131428"/><stop offset="1" stop-color="#0c1a22"/></linearGradient></defs>
+  <rect x="1" y="1" width="1198" height="338" rx="24" fill="url(#learning-bg)" stroke="#34314d" stroke-width="2"/>
+  <path d="M25 0V340" stroke="#282c43" stroke-width="2"/><path d="M25 0V340" stroke="#5eead4" stroke-opacity=".5" stroke-width="2" stroke-dasharray="2 19"><animate attributeName="stroke-dashoffset" values="0;-126" dur="4.25s" repeatCount="indefinite"/></path>
+  <circle cx="25" cy="7" r="4" fill="#a78bfa"/><circle cx="25" cy="333" r="4" fill="#fb7185"/>
+  <circle cx="25" cy="7" r="3" fill="#5eead4"><animateMotion path="M0 0V326" dur="4.25s" begin="2.8s" repeatCount="indefinite"/></circle>
+  <g font-family="monospace"><text x="64" y="54" fill="#a78bfa" font-size="12" letter-spacing="2.5">10 <tspan fill="#777e98">/ NEXT UP</tspan></text><text x="64" y="86" fill="#f3f0fb" font-size="23" font-weight="700">Always learning.</text></g>
+  <g fill="#111525" stroke="#37334f" stroke-width="1.5">
+    <rect x="64" y="111" width="510" height="82" rx="15"/><rect x="600" y="111" width="542" height="82" rx="15"/>
+    <rect x="64" y="211" width="510" height="82" rx="15"/><rect x="600" y="211" width="542" height="82" rx="15"/>
+  </g>
+  <g fill="none" stroke-width="2">
+    <path d="M91 137h22v28H91zM96 131h22v28" stroke="#a78bfa"/><path d="M626 138l14-8 14 8v20l-14 8-14-8zM640 130v17l14 8" stroke="#5eead4"/>
+    <path d="M92 235h22v28H92zM98 243h10M98 250h10" stroke="#fbbf24"/><path d="M626 252h26M639 239v26M630 244l18 18M648 244l-18 18" stroke="#fb7185"/>
+  </g>
+  <g font-family="monospace">
+    <text x="134" y="151" fill="#f3f0fb" font-size="17" font-weight="700">Linux + Docker</text><text x="134" y="173" fill="#969cb4" font-size="10">SERVERS · NETWORKING</text>
+    <text x="670" y="151" fill="#f3f0fb" font-size="17" font-weight="700">Kubernetes</text><text x="670" y="173" fill="#969cb4" font-size="10">ORCHESTRATION</text>
+    <text x="134" y="251" fill="#f3f0fb" font-size="17" font-weight="700">Three.js + 3D</text><text x="134" y="273" fill="#969cb4" font-size="10">INTERACTIVE WORLDS</text>
+    <text x="670" y="251" fill="#f3f0fb" font-size="17" font-weight="700">Strategy engineering</text><text x="670" y="273" fill="#969cb4" font-size="10">EXECUTION · RISK</text>
+  </g>
+</svg>

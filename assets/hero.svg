@@ -1,36 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430">
-<defs>
-  <linearGradient id="g" x1="0" x2="1">
-    <stop stop-color="#58a6ff"/><stop offset="1" stop-color="#7ee7ff"/>
-  </linearGradient>
-  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-    <path d="M40 0H0V40" fill="none" stroke="#58a6ff" stroke-opacity=".07"/>
-  </pattern>
-  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-</defs>
-<rect width="1200" height="430" rx="26" fill="#080b12" stroke="#1f6feb"/>
-<rect width="1200" height="430" rx="26" fill="url(#grid)"/>
-<path d="M0 350 C180 290 220 390 390 320 S690 230 820 315 S1050 350 1200 270" fill="none" stroke="#58a6ff" stroke-opacity=".16" stroke-width="2"/>
-<path d="M0 360 C180 300 220 400 390 330 S690 240 820 325 S1050 360 1200 280" fill="none" stroke="#58a6ff" stroke-width="2" stroke-opacity=".45">
-  <animate attributeName="stroke-opacity" values=".15;.65;.15" dur="3s" repeatCount="indefinite"/>
-</path>
-
-<g font-family="monospace">
-  <text x="70" y="68" fill="#58a6ff" font-size="15" letter-spacing="3">QUADER // SOFTWARE PROFILE</text>
-  <circle cx="1085" cy="62" r="6" fill="#58a6ff" filter="url(#glow)">
-    <animate attributeName="opacity" values="1;.25;1" dur="1.4s" repeatCount="indefinite"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 390" role="img" aria-label="Quader — developer, trader, builder">
+  <defs>
+    <linearGradient id="hero-wash" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#16152b"/><stop offset=".58" stop-color="#0b1120"/><stop offset="1" stop-color="#101b28"/>
+    </linearGradient>
+    <linearGradient id="hero-type" x1="0" x2="1">
+      <stop stop-color="#f2edff"/><stop offset=".55" stop-color="#b9a2ff"/><stop offset="1" stop-color="#65ead0"/>
+    </linearGradient>
+    <radialGradient id="hero-orb"><stop stop-color="#8b5cf6" stop-opacity=".38"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect x="1" y="1" width="1198" height="388" rx="26" fill="url(#hero-wash)" stroke="#34314d" stroke-width="2"/>
+  <ellipse cx="990" cy="175" rx="290" ry="260" fill="url(#hero-orb)"/>
+  <path d="M25 0V390" stroke="#282c43" stroke-width="2"/>
+  <path d="M25 0V390" stroke="#5eead4" stroke-opacity=".5" stroke-width="2" stroke-dasharray="2 19">
+    <animate attributeName="stroke-dashoffset" values="0;-126" dur="5s" repeatCount="indefinite"/>
+  </path>
+  <circle cx="25" cy="8" r="4" fill="#a78bfa"/><circle cx="25" cy="382" r="4" fill="#fb7185"/>
+  <circle cx="25" cy="8" r="3" fill="#5eead4">
+    <animateMotion path="M0 0V374" dur="5s" repeatCount="indefinite"/>
   </circle>
-  <text x="1100" y="68" fill="#8b949e" font-size="12">ONLINE</text>
-
-  <text x="70" y="190" fill="#fff" font-size="72" font-weight="700">QUADER</text>
-  <text x="74" y="230" fill="#8b949e" font-size="20">DEVELOPER  /  TRADER  /  BUILDER</text>
-
-  <text x="74" y="286" fill="#58a6ff" font-size="15">BUILDING SYSTEMS THAT AUTOMATE, TRADE &amp; SCALE.</text>
-  <text x="74" y="330" fill="#8b949e" font-size="13">$ ./keep_building --mode=continuous</text>
-  <rect x="380" y="319" width="9" height="16" fill="#58a6ff">
-    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
-  </rect>
-
-  <text x="74" y="385" fill="#484f58" font-size="12">JAVASCRIPT · TYPESCRIPT · PYTHON · C# · MQL5 · LINUX · DOCKER</text>
-</g>
+  <g font-family="monospace">
+    <text x="64" y="67" fill="#a78bfa" font-size="13" letter-spacing="3">QUADER <tspan fill="#7f849d">/ PROFILE</tspan></text>
+    <circle cx="1080" cy="62" r="5" fill="#5eead4"><animate attributeName="r" values="4;7;4" dur="2.4s" repeatCount="indefinite"/></circle>
+    <text x="1096" y="67" fill="#b4bad0" font-size="11" letter-spacing="1">BUILDING</text>
+    <text x="64" y="185" fill="url(#hero-type)" font-size="82" font-weight="700" letter-spacing="-5">QUADER</text>
+    <text x="70" y="222" fill="#c0c2d4" font-size="16" letter-spacing="2">DEVELOPER <tspan fill="#fb7185">·</tspan> TRADER <tspan fill="#fb7185">·</tspan> BUILDER</text>
+    <text x="70" y="281" fill="#f3f0fb" font-size="15">I turn ideas into systems.</text>
+    <text x="70" y="342" fill="#8990a9" font-size="11">JS / TS <tspan fill="#a78bfa">·</tspan> PYTHON <tspan fill="#a78bfa">·</tspan> C# <tspan fill="#a78bfa">·</tspan> MQL5 <tspan fill="#a78bfa">·</tspan> LINUX</text>
+  </g>
+  <g fill="none" stroke="#8f78cb" stroke-width="2">
+    <path d="M838 147h68l44 46h96M838 250h58l54-55h96M950 193v55h96M1046 193v-55"/>
+  </g>
+  <g fill="#111326" stroke="#5eead4" stroke-width="2">
+    <circle cx="838" cy="147" r="7"/><circle cx="838" cy="250" r="7"/>
+    <circle cx="950" cy="193" r="8"/><circle cx="1046" cy="193" r="7"/>
+    <circle cx="1046" cy="138" r="6"/><circle cx="1046" cy="248" r="6"/>
+  </g>
+  <circle cx="838" cy="147" r="3" fill="#fbbf24"><animate attributeName="opacity" values="1;.2;1" dur="1.8s" repeatCount="indefinite"/></circle>
+  <circle cx="1046" cy="248" r="3" fill="#fb7185"><animate attributeName="opacity" values=".2;1;.2" dur="1.8s" repeatCount="indefinite"/></circle>
 </svg>

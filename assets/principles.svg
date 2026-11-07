@@ -1,6 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500"><defs><pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#58a6ff" stroke-opacity=".055"/></pattern></defs><rect width="100%" height="100%" rx="24" fill="#080b12" stroke="#1f6feb"/><rect width="100%" height="100%" rx="24" fill="url(#grid)"/><g font-family="monospace"><text x="55" y="55" fill="#58a6ff" font-size="14" letter-spacing="3">QUADER // ENGINEERING PRINCIPLES</text>
-<g fill="#0d1117" stroke="#1f6feb"><rect x="55" y="100" width="255" height="250" rx="16"/><rect x="335" y="100" width="255" height="250" rx="16"/><rect x="615" y="100" width="255" height="250" rx="16"/><rect x="895" y="100" width="250" height="250" rx="16"/></g>
-<g fill="#58a6ff" font-size="12"><text x="80" y="140">01 / MEASURE</text><text x="360" y="140">02 / AUTOMATE</text><text x="640" y="140">03 / SIMPLIFY</text><text x="920" y="140">04 / TEST</text></g>
-<g fill="#fff" font-size="18"><text x="80" y="185">OBSERVE</text><text x="360" y="185">REPEATABLE</text><text x="640" y="185">LESS COMPLEX</text><text x="920" y="185">PROVE IT</text></g>
-<g fill="#8b949e" font-size="12"><text x="80" y="225">Prefer data over</text><text x="80" y="247">assumptions.</text><text x="360" y="225">Let systems handle</text><text x="360" y="247">repetitive work.</text><text x="640" y="225">Complexity is a</text><text x="640" y="247">liability until needed.</text><text x="920" y="225">A feature needs</text><text x="920" y="247">repeatable evidence.</text></g>
-<text x="55" y="405" fill="#8b949e" font-size="13">05 / ITERATE</text><text x="190" y="405" fill="#58a6ff" font-size="16">BUILD → INSPECT → FIX → REPEAT</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" role="img" aria-label="Engineering principles">
+  <defs><linearGradient id="principles-bg" x1="0" x2="1"><stop stop-color="#121426"/><stop offset="1" stop-color="#0c1a21"/></linearGradient></defs>
+  <rect x="1" y="1" width="1198" height="328" rx="24" fill="url(#principles-bg)" stroke="#34314d" stroke-width="2"/>
+  <path d="M25 0V330" stroke="#282c43" stroke-width="2"/><path d="M25 0V330" stroke="#5eead4" stroke-opacity=".5" stroke-width="2" stroke-dasharray="2 19"><animate attributeName="stroke-dashoffset" values="0;-126" dur="4.125s" repeatCount="indefinite"/></path>
+  <circle cx="25" cy="7" r="4" fill="#a78bfa"/><circle cx="25" cy="323" r="4" fill="#fb7185"/>
+  <circle cx="25" cy="7" r="3" fill="#5eead4"><animateMotion path="M0 0V316" dur="4.125s" begin="1.75s" repeatCount="indefinite"/></circle>
+  <g font-family="monospace"><text x="64" y="54" fill="#a78bfa" font-size="12" letter-spacing="2.5">05 <tspan fill="#777e98">/ HOW I WORK</tspan></text></g>
+  <path d="M114 151H1090" stroke="#35344f" stroke-width="2"/>
+  <path d="M114 151H1090" stroke="#5eead4" stroke-width="2" stroke-dasharray="24 952"><animate attributeName="stroke-dashoffset" values="0;-976" dur="3.5s" repeatCount="indefinite"/></path>
+  <g fill="#111525" stroke-width="2">
+    <circle cx="143" cy="151" r="35" stroke="#a78bfa"/><circle cx="458" cy="151" r="35" stroke="#5eead4"/>
+    <circle cx="773" cy="151" r="35" stroke="#fbbf24"/><circle cx="1080" cy="151" r="35" stroke="#fb7185"/>
+  </g>
+  <g fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M131 155l8-8 6 6 11-13" stroke="#c4b5fd"/><circle cx="155" cy="138" r="2" fill="#c4b5fd"/>
+    <path d="M446 139h24v7h-24zM450 146v13h16v-13" stroke="#5eead4"/><path d="M455 152h6" stroke="#5eead4"/>
+    <path d="M763 141h20v20h-20zM768 146h10M768 151h10M768 156h7" stroke="#fbbf24"/>
+    <path d="M1069 151l7 7 14-16" stroke="#fb7185"/>
+  </g>
+  <g font-family="monospace" text-anchor="middle">
+    <g fill="#f3f0fb" font-size="14" font-weight="700"><text x="143" y="214">MEASURE</text><text x="458" y="214">AUTOMATE</text><text x="773" y="214">SIMPLIFY</text><text x="1080" y="214">TEST</text></g>
+    <g fill="#9298b1" font-size="10"><text x="143" y="237">Data over guesswork</text><text x="458" y="237">Repeatable by design</text><text x="773" y="237">Keep it focused</text><text x="1080" y="237">Evidence first</text></g>
+  </g>
+  <circle cx="143" cy="151" r="4" fill="#fff"><animateMotion path="M0 0H937" dur="3.5s" repeatCount="indefinite"/></circle>
+</svg>
